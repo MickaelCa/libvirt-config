@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hostCPUs=0-5,16-21
+hostCPUs=0-7,16-23
 guestCPUs=8-15,24-31
 
 UNDOFILE=/var/run/libvirt/qemu/w10-vfio-isolate-undo.bin
