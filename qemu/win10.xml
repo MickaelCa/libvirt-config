@@ -38,7 +38,7 @@ or other application using the libvirt API.
     <vcpupin vcpu='14' cpuset='15'/>
     <vcpupin vcpu='15' cpuset='31'/>
     <emulatorpin cpuset='6,22'/>
-    <iothreadpin iothread='1' cpuset='7'/>
+    <iothreadpin iothread='1' cpuset='7,23'/>
     <vcpusched vcpus='0' scheduler='fifo' priority='1'/>
     <vcpusched vcpus='1' scheduler='fifo' priority='1'/>
     <vcpusched vcpus='2' scheduler='fifo' priority='1'/>
