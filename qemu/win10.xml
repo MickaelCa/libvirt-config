@@ -39,22 +39,22 @@ or other application using the libvirt API.
     <vcpupin vcpu='15' cpuset='31'/>
     <emulatorpin cpuset='6,22'/>
     <iothreadpin iothread='1' cpuset='7'/>
-    <vcpusched vcpus='0' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='1' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='2' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='3' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='4' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='5' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='6' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='7' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='8' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='9' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='10' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='11' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='12' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='13' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='14' scheduler='rr' priority='1'/>
-    <vcpusched vcpus='15' scheduler='rr' priority='1'/>
+    <vcpusched vcpus='0' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='1' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='2' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='3' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='4' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='5' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='6' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='7' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='8' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='9' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='10' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='11' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='12' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='13' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='14' scheduler='fifo' priority='1'/>
+    <vcpusched vcpus='15' scheduler='fifo' priority='1'/>
     <iothreadsched iothreads='1' scheduler='fifo' priority='98'/>
   </cputune>
   <os firmware='efi'>
